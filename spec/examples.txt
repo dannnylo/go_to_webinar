@@ -1,3 +1,4 @@
 example_id                               | status | run_time        |
 ---------------------------------------- | ------ | --------------- |
-./spec/go_to_webinar/client_spec.rb[1:1] | passed | 0.00038 seconds |
+./spec/go_to_webinar/client_spec.rb[1:1] | passed | 0.00037 seconds |
+./spec/go_to_webinar/client_spec.rb[1:2] | passed | 0.00008 seconds |
