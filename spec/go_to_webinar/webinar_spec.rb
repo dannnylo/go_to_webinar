@@ -2,8 +2,8 @@ require_relative '../spec_helper'
 
 RSpec.describe GoToWebinar::Webinar do
   # TODO: Real Account to stub all requests.
-  let(:organizer_key) { '4527803562313186060' }
-  let(:token) { 'JPrfdngWACB79bJh6GhRKJSCXJv8' }
+  let(:organizer_key) { ENV['TEST_ORGANIZER_KEY'] }
+  let(:token) {  ENV['TEST_ACCESS_TOKEN'] }
   let(:client) { GoToWebinar::Client.new(access_token: token, organizer_key: organizer_key) }
 
   context :account  do
